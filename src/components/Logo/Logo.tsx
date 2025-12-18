@@ -24,12 +24,12 @@ export const Logo = (props: Props) => {
           loading={loading}
           fetchPriority={priority}
           decoding="async"
-          className={clsx('max-w-[9.375rem] w-full h-[80px]', className)}
-          src="/media/logo.png"
+          className={clsx('max-w-[9.375rem] w-full h-[50px]', className)}
+          src="/media/Kala.svg"
         />
       </div>
-      <div className="-ml-[65px]">
-        <CircularText text="ALEXEERMA • KALA • STUDIO •" onHover="goBonkers" size={50} />
+      <div className="-ml-[45px]">
+        <CircularText text="ALEXEERMA • KALA • STUDIO •" onHover="goBonkers" size={40} className=''/>
       </div>
     </div>
   )
