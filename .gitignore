@@ -19,3 +19,12 @@ node_modules/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+
+# pnpm
+.pnpm-store/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
